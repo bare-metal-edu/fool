@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta:__legacy__"
+
+[project]
+name = "fool"
+version = "0.0.1"
+requires-python= ">=3.10"
+dependencies = [
+    "twine",
+    "build"
+]
+authors = [
+    {name = "Douglas Luman", email = "dluman@allegheny.edu"}
+]
+readme = "README.md"
+description = "A mock testing library for Micropython."
